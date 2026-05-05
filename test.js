@@ -1,0 +1,17 @@
+console.log("Hello JavaScript");
+console.log(42);
+console.log(3.14);
+console.log(true);
+console.log("Name:" ,"Vaseem" , "Age :" , 24);
+const name="Vaseem";
+console.log(name);
+let score=0;
+console.log(score);
+score=10;
+console.log(score);
+score=score + 5;
+console.log(score);
+let city;
+console.log(city);
+city="Kochi";
+console.log(city);
