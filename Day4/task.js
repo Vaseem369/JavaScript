@@ -14,22 +14,35 @@
 // }
 
 //TASK-2
-const day = "Wednesday";
+// const day = "Wednesday";
 
-switch (day) {
-  case "Monday":
-  case "Tuesday":
-  case "Wednesday":
-  case "Thursday":
-  case "Friday":
-    console.log("Weekday");
-    break;
+// switch (day) {
+//   case "Monday":
+//   case "Tuesday":
+//   case "Wednesday":
+//   case "Thursday":
+//   case "Friday":
+//     console.log("Weekday");
+//     break;
 
-  case "Saturday":
-  case "Sunday":
-    console.log("Weekend");
-    break;
+//   case "Saturday":
+//   case "Sunday":
+//     console.log("Weekend");
+//     break;
 
-  default:
-    console.log("Invalid day");
-}
+//   default:
+//     console.log("Invalid day");
+// }
+//TASK 3
+const value = [
+  0 , //Falsy
+  "0", //Truthy
+  "", //Falsy
+  " ", //truthy
+  null, //falsy
+  undefined,//falsy
+  NaN, //falsy
+  [], //truthy
+  {}, //Truthy
+  "false"//Truthy
+];
